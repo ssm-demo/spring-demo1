@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                          http://www.springframework.org/schema/beans/spring-beans.xsd
+                          http://www.springframework.org/schema/aop
+                          http://www.springframework.org/schema/aop/spring-aop.xsd">
+      <aop:aspectj-autoproxy/>
+      <bean id="roleAspect" class="com.zy.demo.aop.aspect.RoleAspect"></bean>
+      <bean id="roleService" class="com.zy.demo.aop.service.impl.RoleServiceImpl"/>
+      <bean id="xmlRoleAspect" class="com.zy.demo.aop.aspect.XmlRoleAspect"/>
+      <aop:config>
+            <aop:aspect ref="xmlRoleAspect">
+                  <aop:pointcut id="printRoleXml" expression="execution(* com.zy.demo.aop.service.impl.RoleServiceImpl.printRoleXml(..))" />
+                  <aop:before method="before" pointcut-ref="printRoleXml"/>
+                  <aop:after method="after" pointcut-ref="printRoleXml"/>
+                  <aop:after-returning method="afterReturning" pointcut-ref="printRoleXml"/>
+                  <aop:after-throwing method="afterThrowing" pointcut-ref="printRoleXml"/>
+                  <aop:around method="around" pointcut-ref="printRoleXml"/>
+            </aop:aspect>
+
+      </aop:config>
+
+</beans>

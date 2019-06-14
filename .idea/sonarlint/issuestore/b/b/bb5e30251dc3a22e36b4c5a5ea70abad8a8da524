@@ -1,0 +1,8 @@
+
+Lsquid:S1905".Remove this unnecessary cast to "RoleService".(â¾Ÿ¤8Ç¾ı¸©-
+V
+squid:S106+"9Replace this use of System.out or System.err by a logger.(¾•Ï–8‹¹¹©-
+ysquid:UselessImportCheck"IRemove this unused import 'com.zy.demo.aop.service.impl.RoleServiceImpl'.(Ö¦›Õøÿÿÿÿ8¦§â¸©-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßŠÁ™8×æã´-
+V
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¾•Ï–8Ç¾ı¸©-

@@ -1,0 +1,16 @@
+
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÂÎ8öá°©-
+[
+squid:S106-"9Replace this use of System.out or System.err by a logger.(Îµäàÿÿÿÿÿ8àë¦´-
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(”ì©¾øÿÿÿÿ8 ´«´-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤»éÅ8É€å°©-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(°Íüÿÿÿÿ8Õé°©-
+hsquid:UselessImportCheck"=Remove this unused import 'org.springframework.core.Ordered'.(ˆ‹ˆƒ8µŠ«„´-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(†¢Íí8Ö²¢´-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú»¨ûÿÿÿÿ8¤°Ö°©-
